@@ -1,0 +1,146 @@
+.dataTables_wrapper .dataTables_paginate .paginate_button:hover {
+    color: white !important;
+    border: 1px solid #2980B9 !important;
+    background-color: #2980B9 !important;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #2980B9), color-stop(100%, #2980B9)) !important;
+    background: -webkit-linear-gradient(top, #2980B9 0%, #2980B9 100%) !important;
+    background: -moz-linear-gradient(top, #2980B9 0%, #2980B9 100%) !important;
+    background: -ms-linear-gradient(top, #2980B9 0%, #2980B9 100%) !important;
+    background: -o-linear-gradient(top, #2980B9 0%, #2980B9 100%) !important;
+    background: linear-gradient(to bottom, #2980B9 0%, #2980B9 100%) !important;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.current,
+.dataTables_wrapper .dataTables_paginate .paginate_button.current:hover {
+    color: white !important;
+    border: 1px solid #2980B9 !important;
+    background-color: #2980B9 !important;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #2980B9), color-stop(100%, #2980B9)) !important;
+    background: -webkit-linear-gradient(top, #2980B9 0%, #2980B9 100%) !important;
+    background: -moz-linear-gradient(top, #2980B9 0%, #2980B9 100%) !important;
+    background: -ms-linear-gradient(top, #2980B9 0%, #2980B9 100%) !important;
+    background: -o-linear-gradient(top, #2980B9 0%, #2980B9 100%) !important;
+    background: linear-gradient(to bottom, #2980B9 0%, #2980B9 100%) !important;
+}
+
+.active {
+    color: white !important;
+    border: 1px solid #2980B9 !important;
+    background-color: #2980B9 !important;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #2980B9), color-stop(100%, #2980B9)) !important;
+    background: -webkit-linear-gradient(top, #2980B9 0%, #2980B9 100%) !important;
+    background: -moz-linear-gradient(top, #2980B9 0%, #2980B9 100%) !important;
+    background: -ms-linear-gradient(top, #2980B9 0%, #2980B9 100%) !important;
+    background: -o-linear-gradient(top, #2980B9 0%, #2980B9 100%) !important;
+    background: linear-gradient(to bottom, #2980B9 0%, #2980B9 100%) !important;
+}
+
+table.dataTable thead th,
+thead td {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    text-align: center;
+    border-radius: 40px;
+    margin: auto 2px;
+    box-shadow: 0 9px 5px -8px #777;
+    border-top: 1px solid rgb(180 177 177 / 18%);
+}
+
+
+table.dataTable tbody {
+    border-bottom: 0px solid white;
+}
+
+table.dataTable tbody tr:hover {
+    font-weight: 550;
+    color: blue;
+}
+
+table.dataTable tbody tr {
+    height: 60px;
+    border: 1px solid #777;
+    -webkit-box-shadow: 0 -5px 10px -7px #777;
+    /* -webkit-box-shadow: 0 9px 5px -8px #777; */
+    -moz-box-shadow: 0 -5px 10px -7px #777;
+    box-shadow: 0 -5px 10px -7px #777;
+    box-shadow: 0 9px 5px -8px #777;
+    border-radius: 40px;
+    border-bottom: 0px solid white;
+}
+
+tbody tr:hover {
+    cursor: pointer;
+
+}
+
+tbody tr td {
+    border-top: 0px solid white;
+    text-align: center;
+}
+
+table.dataTable.row-border tbody th,
+table.dataTable.row-border tbody td,
+table.dataTable.display tbody th,
+table.dataTable.display tbody td {
+    border-top: 0px solid rgba(0, 0, 0, 0.15);
+}
+
+.dataTables_wrapper.no-footer .dataTables_scrollBody {
+    border-bottom: 0px solid rgba(0, 0, 0, 0.3);
+    padding-bottom: 10px;
+}
+
+
+
+.dataTables_wrapper.no-footer div.dataTables_scrollHead table.dataTable,
+.dataTables_wrapper.no-footer div.dataTables_scrollBody>table {
+    padding-bottom: 10px;
+}
+
+table.dataTable thead>tr>th.sorting_asc:before,
+table.dataTable thead>tr>th.sorting_desc:after,
+table.dataTable thead>tr>td.sorting_asc:before,
+table.dataTable thead>tr>td.sorting_desc:after {
+    opacity: .6;
+}
+
+
+table.dataTable thead>tr>th.sorting:before,
+table.dataTable thead>tr>th.sorting:after,
+table.dataTable thead>tr>th.sorting_asc:before,
+table.dataTable thead>tr>th.sorting_asc:after,
+table.dataTable thead>tr>th.sorting_desc:before,
+table.dataTable thead>tr>th.sorting_desc:after,
+table.dataTable thead>tr>th.sorting_asc_disabled:before,
+table.dataTable thead>tr>th.sorting_asc_disabled:after,
+table.dataTable thead>tr>th.sorting_desc_disabled:before,
+table.dataTable thead>tr>th.sorting_desc_disabled:after,
+table.dataTable thead>tr>td.sorting:before,
+table.dataTable thead>tr>td.sorting:after,
+table.dataTable thead>tr>td.sorting_asc:before,
+table.dataTable thead>tr>td.sorting_asc:after,
+table.dataTable thead>tr>td.sorting_desc:before,
+table.dataTable thead>tr>td.sorting_desc:after,
+table.dataTable thead>tr>td.sorting_asc_disabled:before,
+table.dataTable thead>tr>td.sorting_asc_disabled:after,
+table.dataTable thead>tr>td.sorting_desc_disabled:before,
+table.dataTable thead>tr>td.sorting_desc_disabled:after {
+    line-height: 12px;
+    font-size: .9em;
+    color: blue;
+}
+
+table.dataTable thead>tr>th.sorting,
+table.dataTable thead>tr>th.sorting_asc,
+table.dataTable thead>tr>th.sorting_desc,
+table.dataTable thead>tr>th.sorting_asc_disabled,
+table.dataTable thead>tr>th.sorting_desc_disabled,
+table.dataTable thead>tr>td.sorting,
+table.dataTable thead>tr>td.sorting_asc,
+table.dataTable thead>tr>td.sorting_desc,
+table.dataTable thead>tr>td.sorting_asc_disabled,
+table.dataTable thead>tr>td.sorting_desc_disabled {
+    cursor: pointer;
+    position: relative;
+    padding-right: 26px;
+    text-align: center;
+}
